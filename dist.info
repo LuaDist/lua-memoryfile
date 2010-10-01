@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "lua_memoryfile"
+version = "1.1"
+
+desc = "Lua-MemoryFile - Lua 5.1 module for in-memory simulated file I/O"
+author = "Geoff Richards"
+license = "MIT/X Consortium"
+url = "http://luaforge.net/projects/memoryfile/"
+maintainer = "Peter Kapec"
+
+depends = {
+	"lua ~> 5.1"
+}

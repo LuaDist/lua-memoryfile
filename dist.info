@@ -1,6 +1,6 @@
 --- This file is part of LuaDist project
 
-name = "lua_memoryfile"
+name = "lua-memoryfile"
 version = "1.1"
 
 desc = "Lua-MemoryFile - Lua 5.1 module for in-memory simulated file I/O"

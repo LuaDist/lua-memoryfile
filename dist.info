@@ -1,0 +1,38 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "Geoff Richards"
+depends = {
+[[lua ~> 5.1]],
+}
+
+desc = "Lua-MemoryFile - Lua 5.1 module for in-memory simulated file I/O"
+version = "1.1"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib/lua/memoryfile.so]],
+}
+,
+Documentation = {
+[[share/lua-memoryfile/doc//lua-memoryfile.3]],
+[[share/lua-memoryfile/doc//lua-memoryfile.pod]],
+}
+,
+Data = {
+[[share/lua-memoryfile/COPYRIGHT]],
+[[share/lua-memoryfile/Changes]],
+[[share/lua-memoryfile/README]],
+}
+,
+Test = {
+[[share/lua-memoryfile/test//pristine.lua]],
+[[share/lua-memoryfile/test//io.lua]],
+[[share/lua-memoryfile/test/memoryfile-test.lua]],
+[[share/lua-memoryfile/test/lunit.lua]],
+}
+,
+}
+
+license = "MIT/X Consortium"
+name = "lua-memoryfile"
+url = "http://luaforge.net/projects/memoryfile/"
